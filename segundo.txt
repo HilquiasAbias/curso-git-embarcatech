@@ -1,0 +1,11 @@
+git init
+git config --local user.name "HilquiasAbias"
+git config --local user.email "hilquias.dev@gmail.com"
+echo "Hilquias Abias / 20251ZL00130040" >> primeiro.txt (cria o arquivo primeiro.txt com o conteúdo das aspas dentro dele)
+git add primeiro.txt
+git commit -m "primeiro commit"
+git branch -M main
+git remote add origin https://github.com/HilquiasAbias/curso-git-embarcatech.git
+git push -u origin main
+touch segundo.txt (crio o segundo arquivo sem passar o conteúdo pois seriam muitas linhas para adicionar em um único comando)
+vi segundo.txt (abro o arquivo no editor de texto para adicionar as linhas dos comandos)
